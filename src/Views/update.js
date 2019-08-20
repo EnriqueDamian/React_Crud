@@ -71,11 +71,11 @@ class create extends React.Component {
                         <h4><Link to={`/`} className="btn btn-success">Product List</Link></h4>
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
-                                <label htmlFor="title">Title:</label>
+                                <label htmlFor="title">Name:</label>
                                 <input type="text" className="form-control" name="name" value={this.state.name} onChange={this.onChange} placeholder="name" />
                             </div>
                             <div className="form-group">
-                                <label htmlFor="description">Description:</label>
+                                <label htmlFor="description">Price:</label>
                                 <input type="text" className="form-control" name="price" value={this.state.price} onChange={this.onChange} placeholder="price" />
                             </div>
                          
